@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Archivo+Black&family=Archivo+Narrow&display=swap");
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  font-family: "Archivo", sans-serif;
+}
+h1 {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.authInput {
+  padding: 8px !important;
+}
+
+.flexlayout {
+  display: flex !important;
+}
+.ant-table th {
+  background-color: #eef2f7 !important ; /* Customize the background color */
+}
